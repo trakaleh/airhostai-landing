@@ -1,0 +1,225 @@
+
+<nav class="lw-topbar-menu {% if hoverEnabled %} with-hover {%endif%}   {% if hoverEnabled and hoverEffect%} {{hoverEffect}} {%endif%}" >
+	<ul class="lw-topbar-options with-flexible-parts align-items-center">
+		{% for item in items %}
+
+			{% if item.appearance == 'roundedSolid' or item.appearance == '' and menuLinksAppearance == 'roundedSolid' %}
+				{% assign appearance_classes = 'learnworlds-button-solid-brand button-like' %}
+			{% elsif item.appearance == 'roundedOutline' or item.appearance == '' and menuLinksAppearance == 'roundedOutline' %}
+				{% assign appearance_classes = 'learnworlds-button-outline-brand button-like' %}
+			{% elsif item.appearance == 'textUnderline' or item.appearance == '' and menuLinksAppearance == 'textUnderline' %}
+				{% assign appearance_classes = 'lw-brand-border border-bottom' %}
+			{% elsif item.appearance == 'roundedSolidAccent1' or (item.appearance == '' and menuLinksAppearance == 'roundedSolidAccent1') %}
+				{% assign appearance_classes = 'learnworlds-button-solid-accent1 button-like' %}
+			{% elsif item.appearance == 'roundedOutlineAccent1' or item.appearance == '' and menuLinksAppearance == 'roundedOutlineAccent1' %}
+				{% assign appearance_classes = 'learnworlds-button-outline-accent1 button-like' %}
+			{% elsif item.appearance == 'roundedSolidAccent2' or (item.appearance == '' and menuLinksAppearance == 'roundedSolidAccent2') %}
+				{% assign appearance_classes = 'learnworlds-button-solid-accent2 button-like' %}
+			{% elsif item.appearance == 'textLink' or (item.appearance == '' and menuLinksAppearance == 'textLink') %}
+				{% assign appearance_classes = 'text-only lw-link-text' %}
+			{% elsif item.appearance == 'roundedOutlineAccent2' or item.appearance == '' and menuLinksAppearance == 'roundedOutlineAccent2' %}
+				{% assign appearance_classes = 'learnworlds-button-outline-accent2 button-like' %}
+			{% elsif item.appearance == 'textUnderlineAccent1' or item.appearance == '' and menuLinksAppearance == 'textUnderlineAccent1' %}
+				{% assign appearance_classes = 'lw-accent1-border border-bottom' %}
+			{% elsif item.appearance == 'rectangleSolid' or item.appearance == '' and menuLinksAppearance == 'rectangleSolid' %}
+				{% assign appearance_classes = 'learnworlds-button-solid-brand button-like' %}
+			{% elsif item.appearance == 'rectangleOutline' or item.appearance == '' and menuLinksAppearance == 'rectangleOutline' %}
+				{% assign appearance_classes = 'learnworlds-button-outline-brand button-like' %}
+			{% elsif item.appearance == 'bottomLine' or item.appearance == '' and menuLinksAppearance == 'bottomLine' %}
+				{% assign appearance_classes = 'bottom-border lw-brand-text' %}
+			{% elsif item.appearance == 'bottomLine' or item.appearance == '' and menuLinksAppearance == 'topLine' %}
+				{% assign appearance_classes = 'top-border lw-brand-text' %}
+			{% elsif item.appearance == 'textOnlyAccent1' or item.appearance == '' and menuLinksAppearance == 'textOnlyAccent1' %}
+				{% assign appearance_classes = 'lw-brand-accent1-text text-only' %}
+			{% else %}
+				{% assign appearance_classes = 'lw-brand-text text-only' %}
+			{% endif %}
+
+			{% if item.subItems.length > 0 and item.hasMegamenu %}
+				{% assign submenu_classes = 'js-with-submenu-list with-megamenu' %}
+			{% elsif item.subItems.length > 0 %}
+				{% assign submenu_classes = 'js-with-submenu-list with-submenu' %}
+			{% else %}
+				{% assign submenu_classes = '' %}
+			{% endif %}
+
+			{% if item.linkData and item.linkData.linkType %}
+				{% assign linked_node_classes = 'js-linked-node' %}
+			{% else %}
+				{% assign linked_node_classes = '' %}
+			{% endif %}
+
+			{% capture itemStyles %}
+				{%- if fontSize and fontSize > 0 -%}font-size:{{fontSize}}rem;{%- endif -%}
+				{%- if item.borderRadius and item.borderRadius > 0 -%}border-radius:{{item.borderRadius | times: 30}}px;{%- endif -%}
+				{%- if fontWeight and fontWeight > 0 -%}font-weight:{{fontWeight}};{%- endif -%}
+				{%- if letterSpacing and letterSpacing > 0 -%}letter-spacing:{{letterSpacing}}em;{%- endif -%}
+			{% endcapture %}
+
+			{% capture interactiveLinkAtts %}
+				{% if item.linkData and item.linkData.linkType and item.linkData.linkType.length %} data-interactive-link-type="{{item.linkData.linkType}}" {% endif %}
+				{% if item.linkData and item.linkData.linkTo and item.linkData.linkTo.length %} data-interactive-link-var1="{{item.linkData.linkTo}}" {% endif %}
+				{% if item.linkData and item.linkData.linkToExtra and item.linkData.linkToExtra.length %} data-interactive-link-var2="{{item.linkData.linkToExtra}}" {% endif %}
+				{% if item.linkData.linkOpen and item.linkData.linkOpen.length %} data-interactive-link-window="{{item.linkData.linkOpen}}" {%endif %}
+			{% endcapture %}
+
+
+			<li class="lw-topbar-option">
+				{% if item.linkData.href and item.linkData.href.length > 0 %}
+					<a id="{{item.id}}" style="{{- itemStyles | strip_newlines -}}" href="{{ item.linkData.href }}" {% if item.linkData.linkOpen == 'new' %} target="_blank" {% endif %}
+					   class="lw-topbar-option-link learnworlds-main-text-normal js-menu-item {{ appearance_classes }} {{ submenu_classes }} {{ linked_node_classes }}"
+						{{ interactiveLinkAtts }}
+					>
+						<span class="lw-topbar-option-link-lbl nowrap">{{item.label}}</span>
+						{% if item.notifications and item.notifications > 0 %}
+							<div class="lw-topbar-notif lw-brand-bg">
+								<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{item.notifications}}</div>
+							</div>
+						{% endif %}
+					</a>
+				{% elsif item.linkData.linkTo and item.linkData.href.linkTo > 0 %}
+					<a id="{{item.id}}" style="{{- itemStyles | strip_newlines -}}" href="javascript:void(0)"
+					   class="lw-topbar-option-link learnworlds-main-text-normal js-menu-item {{ appearance_classes }} {{ submenu_classes }} {{ linked_node_classes }}"
+							{{ interactiveLinkAtts }}
+					>
+						<span class="lw-topbar-option-link-lbl nowrap">{{item.label}}</span>
+						{% if item.notifications and item.notifications > 0 %}
+							<div class="lw-topbar-notif lw-brand-bg">
+								<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{item.notifications}}</div>
+							</div>
+						{% endif %}
+					</a>
+				{% else %}
+					<div id="{{item.id}}" style="{{- itemStyles | strip_newlines -}}"
+							class="lw-topbar-option-link learnworlds-main-text-normal js-menu-item {{ appearance_classes }} {{ submenu_classes }} {{ linked_node_classes }}"
+							{{ interactiveLinkAtts }}
+					>
+						<span class="lw-topbar-option-link-lbl nowrap">{{item.label}}</span>
+						{% if item.notifications and item.notifications > 0 %}
+							<div class="lw-topbar-notif lw-brand-bg">
+								<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{item.notifications}}</div>
+							</div>
+						{% endif %}
+					</div>
+				{% endif %}
+
+				{% if item.hasMegamenu %}
+					{% if isPreview %}
+						{% for subItem in item.subItems%}
+							{%if subItem.type == 'megamenu' %}
+								{%if subItem.content %}
+									{{ subItem.content }}
+								{% else %}
+									{% include subItem.defaultTemplate with subItem,componentId %}
+								{% endif %}
+							{% endif %}
+						{%endfor %}
+					{% endif %}
+				{% else %}
+					{% if item.subItems.length > 0 %}
+						<ul class="lw-topbar-submenu js-submenu-list">
+							{% for subItem in item.subItems %}
+
+								{% if subItem.appearance == 'bottomLine' %}
+									{% assign subItem_border_classes = 'bottom-border' %}
+								{% elsif subItem.appearance == 'topLine'%}
+									{% assign subItem_border_classes = 'top-border' %}
+								{% else %}
+									{% assign subItem_border_classes = '' %}
+								{% endif%}
+
+								{% if subItem.linkData and subItem.linkData.linkType %}
+									{% assign subItem_linked_node_classes = 'js-linked-node' %}
+								{% else %}
+									{% assign subItem_linked_node_classes = '' %}
+								{% endif %}
+
+								{% if subItem.appearance == 'roundedSolid' %}
+									{% assign subItem_appearance_classes = 'learnworlds-button-solid-brand button-like' %}
+								{% elsif subItem.appearance == 'roundedOutline' %}
+									{% assign subItem_appearance_classes = 'learnworlds-button-outline-brand button-like' %}
+								{% elsif subItem.appearance == 'textUnderline' %}
+									{% assign subItem_appearance_classes = 'lw-brand-border border-bottom' %}
+								{% elsif subItem.appearance == 'roundedSolidAccent1'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-solid-accent1 button-like' %}
+								{% elsif subItem.appearance == 'roundedOutlineAccent1'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-outline-accent1 button-like' %}
+								{% elsif subItem.appearance == 'roundedSolidAccent2'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-solid-accent2 button-like' %}
+								{% elsif subItem.appearance == 'roundedOutlineAccent2'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-outline-accent2 button-like' %}
+								{% elsif subItem.appearance == 'textUnderlineAccent1'%}
+									{% assign subItem_appearance_classes = 'lw-accent1-border border-bottom' %}
+								{% elsif subItem.appearance == 'rectangleSolid'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-solid-brand button-like' %}
+								{% elsif subItem.appearance == 'rectangleOutline'%}
+									{% assign subItem_appearance_classes = 'learnworlds-button-outline-brand button-like' %}
+								{% elsif subItem.appearance == 'textOnlyAccent1' %}
+									{% assign subItem_appearance_classes = 'lw-brand-accent1-text text-only' %}
+								{% else %}
+									{% assign subItem_appearance_classes = 'lw-brand-text text-only' %}
+								{% endif %}
+
+								{% capture subItemStyles %}
+									{%- if subItem.borderRadius and subItem.borderRadius > 0 -%} border-radius:{{subItem.borderRadius | times: 30}}px; {%- endif -%}
+									{%- if fontSize and fontSize > 0 -%}font-size:{{fontSize}}rem;{%- endif -%}
+									{%- if fontWeight and fontWeight > 0 -%}font-weight:{{fontWeight}};{%- endif -%}
+									{%- if letterSpacing and letterSpacing > 0 -%}letter-spacing:{{letterSpacing}}em;{%- endif -%}
+								{% endcapture %}
+
+								{% capture subItem_interactiveLinkAtts %}
+									{% if subItem.linkData and subItem.linkData.linkType and subItem.linkData.linkType.length %}data-interactive-link-type="{{subItem.linkData.linkType}}"{% endif %}
+									{% if subItem.linkData and subItem.linkData.linkTo and subItem.linkData.linkTo.length %}data-interactive-link-var1="{{subItem.linkData.linkTo}}"{% endif %}
+									{% if subItem.linkData and subItem.linkData.linkToExtra and subItem.linkData.linkToExtra.length %}data-interactive-link-var2="{{subItem.linkData.linkToExtra}}"{% endif %}
+									{% if subItem.linkData.linkOpen and subItem.linkData.linkOpen.length %}data-interactive-link-window="{{subItem.linkData.linkOpen}}"{%endif %}
+								{% endcapture %}
+
+								<li class="lw-topbar-submenu-item js-submenu-item">
+									{% if subItem.linkData.href and subItem.linkData.href.length > 0 %}
+										<a id="{{subItem.id}}"  style="{{- subItemStyles | strip_newlines -}}" href="{{ subItem.linkData.href }}" {% if subItem.linkData.linkOpen == 'new' %} target="_blank" {% endif %}
+										   class="lw-topbar-option-link learnworlds-main-text-normal {{ subItem_appearance_classes }} {{ subItem_border_classes }} {{ subItem_linked_node_classes }}"
+										   {{ subItem_interactiveLinkAtts }}
+										>
+											{{subItem.label}}
+											{% if subItem.notifications and subItem.notifications > 0 %}
+												<div class="lw-topbar-notif lw-brand-bg">
+													<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{subItem.notifications}}</div>
+												</div>
+											{% endif %}
+										</a>
+									{% elsif subItem.linkData.linkTo and subItem.linkData.linkTo.length > 0 %}
+										<a id="{{subItem.id}}"  style="{{- subItemStyles | strip_newlines -}}" href="javascript:void(0)"
+										   class="lw-topbar-option-link learnworlds-main-text-normal {{ subItem_appearance_classes }} {{ subItem_border_classes }} {{ subItem_linked_node_classes }}"
+												{{ subItem_interactiveLinkAtts }}>
+											{{subItem.label}}
+											{% if subItem.notifications and subItem.notifications > 0 %}
+												<div class="lw-topbar-notif lw-brand-bg">
+													<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{subItem.notifications}}</div>
+												</div>
+											{% endif %}
+										</a>
+									{% else %}
+										<div id="{{subItem.id}}"  style="{{ subItemStyles | strip_newlines }}"
+										   class="lw-topbar-option-link learnworlds-main-text-normal {{ subItem_appearance_classes }} {{ subItem_border_classes }} {{ subItem_linked_node_classes }}"
+												{{ subItem_interactiveLinkAtts }}>
+											{{subItem.label}}
+											{% if subItem.notifications and subItem.notifications > 0 %}
+												<div class="lw-topbar-notif lw-brand-bg">
+													<div class="lw-topbar-notif-lbl learnworlds-main-text-very-small">{{subItem.notifications}}</div>
+												</div>
+											{% endif %}
+										</div>
+									{% endif %}
+								</li>
+
+							{%endfor %}
+
+						</ul>
+					{% endif %}
+				{% endif %}
+
+				</a>
+			</li>
+		{%endfor %}
+	</ul>
+</nav>
