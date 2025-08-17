@@ -1,0 +1,1 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[32],{613:function(t,n,e){"use strict";e.r(n);var i=e(0),r=e.n(i),o=e(1),_=e(362);const c=t=>{let{content:n,componentId:e}=t;return r.a.createElement(_.RichTextWidget,{id:e,html:n})};c.propTypes={content:o.string.isRequired,componentId:o.string.isRequired},e.d(n,"default",(function(){return c}))}}]);

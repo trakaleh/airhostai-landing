@@ -1,0 +1,149 @@
+<div class="col span_4_of_12 lw-card-mb span_4_of_12-tl span_6_of_12-tp span_6_of_12-sl span_12_of_12-sp no-padding learnworlds-align-left flex-item fg-0 lw-course-card lw-course-card1 va-sb flexible"  tabindex="0" data-href="{{ item.cardLink }}">
+    <a class="lw-course-card--stretched-link" href="{{ item.cardLink }}" {%if item.shouldOpenInNewTab %} target="_blank" {% endif %}>{{ item.title }}</a>
+    <div class="learnworlds-image no-margin-bottom learnworlds-bg-default stretched-bg learnworlds-framed-image learnworlds-element rectangle learnworlds-frame-size-full"  {%if item.courseImage.url %} style="background-image:url('{{item.courseImage.url}}');" {% endif %}>
+
+        <!-- overlay gia enrollment closed / coming soon -->
+        {%if item.access == 'soon' or item.access == 'private-enroll'%}
+            <div class="lw-card-overlay lw-dark-bg-fadeout50">
+
+                {%if item.access == 'private-enroll'%}
+                    <span class="normal no-margin-bottom learnworlds-icon fas fa-lock"></span>
+                    <div class="learnworlds-main-text learnworlds-main-text-small learnworlds-element">{{item.translations.enrollment_closed}}</div>
+                {% endif %}
+
+                {%if item.access == 'soon'%}
+                    <span class="normal no-margin-bottom learnworlds-icon fas fa-clock"></span>
+                    <div class="learnworlds-main-text learnworlds-main-text-small learnworlds-element">{{item.translations.coming_soon}}</div>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {%if item.discountFlag and item.status == 'paid' and item.me.enrolled == false and item.ribbonDisplay%}
+        <div class="lw-course-card-ribbon lw-brand-accent1-bg {{ item.ribbonPositionClass }}" style="opacity: {{ item.ribbonOpacity | default: 1 }}">
+            <p class="learnworlds-main-text learnworlds-main-text-small learnworlds-element ellipsis">{{item.translations.course_offer}}</p>
+        </div>
+        {% endif %}
+
+        <div class="lw-tags absolute tl">
+            {% if item.subscriptionOnly == false %}
+                {% if item.me.expires %}
+                    {% if item.me.premium %}
+                        {% if item.me.expires_t %}
+                            <div class="lw-tag no-margin-bottom lw-brand-bg learnworlds-main-text learnworlds-element learnworlds-main-text-tiny">
+                                <span>{{ item.translations.access_until }}</span>&nbsp;<span>{{ item.me.expires}}</span>
+                            </div>
+                        {% endif %}
+                    {%else%}
+                        <div class="lw-tag no-margin-bottom lw-brand-bg learnworlds-main-text learnworlds-element learnworlds-main-text-tiny">
+                            <span>{{ item.translations.access_for }}</span>&nbsp;<span>{{item.me.expires}} {{ item.expiresTypeTranslation }}</span>
+                        </div>
+                    {% endif %}
+                {% else %}
+                    {%if item.expires %}
+                        <div class="lw-tag no-margin-bottom lw-brand-bg learnworlds-main-text learnworlds-element learnworlds-main-text-tiny">
+                            <span>{{ item.translations.access_for }}</span>&nbsp;<span>{{item.expires}} {{ item.expiresTypeTranslation }}</span>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+
+        </div>
+
+    </div>
+
+
+    <div class="lw-body-bg flex-item va-sb fg-1 lw-padding-small learnworlds-element">
+
+        <div class="flex-item fg-1 va-sb">
+            <!--<p class="lw-brand-text learnworlds-overline-text learnworlds-letter-casing-uppercase learnworlds-element">{{item.points}}</p>-->
+
+            <!--
+            <p class="learnworlds-main-text learnworlds-main-text-small learnworlds-element lw-text-color-fadeout20">
+                {% if item.tags %}
+                    {{ item.tags| join ", " }}
+                {% endif %}
+            </p>
+            -->
+
+            <div class="lw-card-top">
+                <p class="lw-brand-text learnworlds-overline-text learnworlds-element no-margin-bottom" data-node-type="text" data-magic="label">{{item.points}}</p>
+
+                <h3 class="learnworlds-heading3 learnworlds-element learnworlds-heading3-normal no-margin-top">{{item.title}}</h3>
+
+                <div data-node-type="text" class="lw-course-card-descr learnworlds-main-text learnworlds-element learnworlds-main-text-small lw-text-color-fadeout20">
+                    {{ item.keywords }}
+                </div>
+            </div>
+
+            <div class="lw-interior-mt">
+                {% if item.authorName %}
+                    <div class="lw-card-author lw-cols one-row one-row-tl one-row-tp one-row-sl one-row-sp align-items-center">
+                        <div class="col fsh-0 no-padding span_2_of_12 span_2_of_12-tl span_2_of_12-tp span_2_of_12-sl span_2_of_12-sp">
+                            <div class="learnworlds-image learnworlds-bg-default circle stretched-bg learnworlds-framed-image learnworlds-element learnworlds-frame-size-full"  {%if item.authorImage%} style="background-image:url('{{item.authorImage}}');" {% endif %}></div>
+                        </div>
+                        <div class="col no-padding">
+                            <p class="learnworlds-main-text learnworlds-main-text-small learnworlds-element lw-text-color-fadeout20 weglot-exclude">{{item.authorName}}</p>
+                        </div>
+                    </div>
+                {% endif %}
+
+                {% if item.me.enrolled and shouldShowProgressBar %}
+                <div class="learnworlds-element mt-2rem">
+
+                        <div class="learnworlds-overline-text learnworlds-element no-margin-bottom">
+                            <span class="weglot-exclude">{{ item.progressBarCompletion }}%</span>  {{ item.translations.complete }}
+                        </div>
+                        <div class="lw-course-card-progress">
+                            <div class="lw-course-card-progress-bar" {% if item.progressBarCompletion %} style="width:{{ item.progressBarCompletion }}%;" {% endif %}></div>
+                        </div>
+
+                </div>
+                {% endif %}
+
+                <div class="lw-interior-mt lw-cols one-row one-row-tl multiple-rows-tp multiple-rows-sl multiple-rows-sp align-items-center">
+                    <div class="col flex-item span_7_of_12 span_7_of_12-tl span_12_of_12-tp mb-1rem-tp span_12_of_12-sl mb-1rem-sl span_12_of_12-sp mb-1rem-sp no-padding" {% if item.buttonDisplay != true %} style="display: none" {% endif %}>
+                        <div class="learnworlds-button-wrapper no-margin-top lw-content-block learnworlds-element">
+                            <a href="{{ item.cardLink }}" class="no-margin-top full-width learnworlds-button {% if item.ctaButtonSize %} {{ item.ctaButtonSize }} {% else %} {{ 'learnworlds-button-small' }} {% endif %} {% if item.ctaButtonType %} {{ item.ctaButtonType }} {% else %} {{ 'learnworlds-button-solid-accent1' }} {% endif %} learnworlds-element">
+                                <span>{{ item.buttonText }}</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col flex-item {% if item.buttonDisplay %} learnworlds-align-right {% else%} learnworlds-align-left {% endif%} span_5_of_12 span_5_of_12-tl span_12_of_12-tp span_12_of_12-sl span_12_of_12-sp no-padding">
+                        {% if item.me.enrolled == false and item.access != 'soon' and item.access != 'private-enroll' and item.subscriptionOnly == false and item.priceDisplay %}
+                            <div class="lw-course-card-price learnworlds-main-text learnworlds-element learnworlds-main-text-normal learnworlds-align-center-tp learnworlds-align-center-sl learnworlds-align-center-sp" style="line-height: 1;">
+                                <!--
+                                {% if item.discount_percentage %}
+                                    <span>You save <span class="weglot-exclude">{{ item.discount_percentage}}%</span> </span>
+                                {% endif %}
+                                -->
+
+                                {% if item.status == 'paid' %}
+                                    {% if item.price %}
+                                        {%if item.discountFlag %}
+                                            <span class="lw-deleted-price v-middle lw-text-color-fadeout50 weglot-exclude">
+                                                {{ item.price }}
+                                            </span>
+                                            <span class="v-middle weglot-exclude">
+                                                <strong>{{item.discountPrice}}</strong>
+                                            </span>
+                                        {% else %}
+                                            <span class="weglot-exclude">
+                                                <strong>{{ item.price }}</strong>
+                                            </span>
+                                        {% endif %}
+                                    {% endif %}
+                                {% elsif item.status == 'free'%}
+                                    <strong>{{ item.translations.free }}</strong>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
