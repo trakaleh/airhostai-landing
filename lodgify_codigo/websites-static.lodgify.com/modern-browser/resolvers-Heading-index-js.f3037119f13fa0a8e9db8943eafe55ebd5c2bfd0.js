@@ -1,1 +1,0 @@
-"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[4736],{277:(e,s,t)=>{t.r(s),t.d(s,{default:()=>u});var i=t(2983),_=t(9480),r=t(571);const l={big:"h1",medium:"h2",small:"h3"},u=e=>{let{text:s,size:t}=e;return i.createElement(r.Heading,{as:l[t]},s)};u.propTypes={text:_.string.isRequired,size:_.string.isRequired}}}]);
