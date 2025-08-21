@@ -1,0 +1,2039 @@
+<!-- Testimonials with Badges -->
+    <section id="testimonios" class="testimonials section">
+        <div class="container">
+            <div class="features-header animate-on-scroll">
+                <div class="features-badge">Testimonios</div>
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">
+                    Miles de hosts ya han automatizado sus Airbnb y han transformado su negocio
+                </p>
+            </div>
+
+            <!-- Trust Badges Section -->
+            <div class="trust-badges animate-on-scroll" style="display: flex; justify-content: center; align-items: center; gap: 40px; margin: 40px 0 60px; flex-wrap: wrap;">
+                <!-- Airbnb Superhost Badge -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="background: linear-gradient(135deg, #FF5A5F, #FF385C); color: white; padding: 16px 24px; border-radius: 16px; font-weight: 700; font-size: 14px; box-shadow: var(--shadow-medium); position: relative;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 18px;">🏆</span>
+                            SUPERHOST CERTIFIED
+                        </div>
+                        <div style="font-size: 12px; opacity: 0.9; margin-top: 4px;">Recommended by Airbnb</div>
+                        <!-- Badge shine effect -->
+                        <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 3s infinite;"></div>
+                    </div>
+                </div>
+
+                <!-- Booking.com Partner Badge -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="background: linear-gradient(135deg, #003580, #0057A0); color: white; padding: 16px 24px; border-radius: 16px; font-weight: 700; font-size: 14px; box-shadow: var(--shadow-medium); position: relative;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 18px;">✅</span>
+                            PREFERRED PARTNER
+                        </div>
+                        <div style="font-size: 12px; opacity: 0.9; margin-top: 4px;">Booking.com Certified</div>
+                        <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 3s infinite 1s;"></div>
+                    </div>
+                </div>
+
+                <!-- VRBO Premier Partner -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="background: linear-gradient(135deg, #1BA0E1, #0E8CC7); color: white; padding: 16px 24px; border-radius: 16px; font-weight: 700; font-size: 14px; box-shadow: var(--shadow-medium); position: relative;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 18px;">⭐</span>
+                            PREMIER PARTNER
+                        </div>
+                        <div style="font-size: 12px; opacity: 0.9; margin-top: 4px;">VRBO Elite Program</div>
+                        <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 3s infinite 2s;"></div>
+                    </div>
+                </div>
+
+                <!-- Industry Recognition -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="background: linear-gradient(135deg, var(--color-success), #28a745); color: white; padding: 16px 24px; border-radius: 16px; font-weight: 700; font-size: 14px; box-shadow: var(--shadow-medium); position: relative;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="font-size: 18px;">🥇</span>
+                            TOP RATED 2024
+                        </div>
+                        <div style="font-size: 12px; opacity: 0.9; margin-top: 4px;">PropTech Awards</div>
+                        <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 3s infinite 0.5s;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        "El WhatsApp automático es una maravilla. Mis huéspedes reciben mensajes personalizados en su idioma 
+                        sin que yo mueva un dedo. El Channel Manager detecta reservas al instante de todas las plataformas."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MR</div>
+                        <div class="testimonial-info">
+                            <h4>María Rodríguez</h4>
+                            <p>15 propiedades • Madrid</p>
+                            <div style="display: flex; gap: 4px; margin-top: 8px;">
+                                <span style="background: #FF5A5F; color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">SUPERHOST</span>
+                                <span style="background: var(--color-success); color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">⭐ 4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        "Nunca más un overbooking. El sistema sincroniza Airbnb, Booking y VRBO en tiempo real. 
+                        Los mensajes automáticos han mejorado mis reseñas un 40% - los huéspedes se sienten súper atendidos."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JL</div>
+                        <div class="testimonial-info">
+                            <h4>Juan López</h4>
+                            <p>8 propiedades • Barcelona</p>
+                            <div<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirHost AI - Automatización Inteligente para Airbnb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #0071E3;
+            --color-primary-dark: #0056B3;
+            --color-secondary: #1D1D1F;
+            --color-accent: #06C;
+            --color-text-primary: #1D1D1F;
+            --color-text-secondary: #6E6E73;
+            --color-text-tertiary: #86868B;
+            --color-background: #FBFBFD;
+            --color-surface: #FFFFFF;
+            --color-border: #D2D2D7;
+            --color-success: #30D158;
+            --color-warning: #FF9F0A;
+            --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-premium: linear-gradient(135deg, #0071E3 0%, #005BB5 50%, #003D82 100%);
+            --shadow-small: 0 2px 8px rgba(0, 0, 0, 0.04);
+            --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.08);
+            --shadow-large: 0 16px 48px rgba(0, 0, 0, 0.12);
+            --shadow-xl: 0 24px 80px rgba(0, 0, 0, 0.16);
+            --blur-glass: blur(20px);
+            --border-radius: 12px;
+            --border-radius-lg: 20px;
+            --border-radius-xl: 28px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-family);
+            color: var(--color-text-primary);
+            background: var(--color-background);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Utilidades */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .container-wide {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .section {
+            padding: 120px 0;
+        }
+
+        .section-small {
+            padding: 80px 0;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(251, 251, 253, 0.8);
+            backdrop-filter: var(--blur-glass);
+            -webkit-backdrop-filter: var(--blur-glass);
+            border-bottom: 1px solid rgba(210, 210, 215, 0.3);
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(251, 251, 253, 0.95);
+            box-shadow: var(--shadow-small);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nav-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--color-text-primary);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--color-text-primary);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--color-primary);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--color-primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-cta:hover {
+            background: var(--color-primary-dark);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: var(--color-surface);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 20%, rgba(0, 113, 227, 0.08) 0%, transparent 50%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 113, 227, 0.1);
+            color: var(--color-primary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 32px;
+            border: 1px solid rgba(0, 113, 227, 0.2);
+        }
+
+        .hero-title {
+            font-size: clamp(3.5rem, 8vw, 6rem);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.04em;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--color-text-primary) 0%, var(--color-text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.375rem;
+            font-weight: 400;
+            color: var(--color-text-secondary);
+            margin-bottom: 48px;
+            line-height: 1.5;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 32px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: var(--gradient-premium);
+            color: white;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-large);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-text-primary);
+            border: 2px solid var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+            transform: translateY(-1px);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--color-surface);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 60px;
+            text-align: center;
+        }
+
+        .stat-item {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: var(--transition);
+        }
+
+        .stat-item.animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: var(--color-text-secondary);
+            font-weight: 500;
+        }
+
+        /* Features Section */
+        .features {
+            background: var(--color-background);
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .features-badge {
+            display: inline-block;
+            background: rgba(0, 113, 227, 0.1);
+            color: var(--color-primary);
+            padding: 6px 16px;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            font-size: 1.25rem;
+            color: var(--color-text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 32px;
+        }
+
+        .feature-card {
+            background: var(--color-surface);
+            padding: 40px;
+            border-radius: var(--border-radius-lg);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-premium);
+            transform: scaleX(0);
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-large);
+            border-color: transparent;
+        }
+
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--gradient-premium);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+
+        .feature-description {
+            color: var(--color-text-secondary);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Product Showcase */
+        .showcase {
+            background: var(--color-surface);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .showcase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 70% 30%, rgba(0, 113, 227, 0.05) 0%, transparent 60%);
+        }
+
+        .showcase-content {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .showcase-text {
+            max-width: 500px;
+        }
+
+        .showcase-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .showcase-description {
+            font-size: 1.125rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .showcase-features {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .showcase-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: var(--color-text-secondary);
+        }
+
+        .showcase-features li::before {
+            content: '✓';
+            width: 24px;
+            height: 24px;
+            background: var(--color-success);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .showcase-visual {
+            background: var(--gradient-premium);
+            border-radius: var(--border-radius-xl);
+            padding: 60px;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .showcase-visual::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 2px,
+                rgba(255, 255, 255, 0.1) 2px,
+                rgba(255, 255, 255, 0.1) 40px
+            );
+            animation: float 30s linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .showcase-visual-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .showcase-visual h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .showcase-visual p {
+            font-size: 1.125rem;
+            opacity: 0.9;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: var(--color-background);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .testimonial-card {
+            background: var(--color-surface);
+            padding: 40px;
+            border-radius: var(--border-radius-lg);
+            border: 1px solid var(--color-border);
+            transition: var(--transition);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .testimonial-content {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            margin-bottom: 24px;
+            color: var(--color-text-secondary);
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-premium);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .testimonial-info h4 {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .testimonial-info p {
+            font-size: 14px;
+            color: var(--color-text-tertiary);
+        }
+
+        /* Pricing */
+        .pricing {
+            background: var(--color-surface);
+        }
+
+        .pricing-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            margin: 40px 0 60px;
+        }
+
+        .pricing-toggle span {
+            font-weight: 500;
+            color: var(--color-text-secondary);
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 60px;
+            height: 32px;
+            background: var(--color-border);
+            border-radius: 16px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .toggle-switch.active {
+            background: var(--color-primary);
+        }
+
+        .toggle-switch::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: 24px;
+            height: 24px;
+            background: white;
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+
+        .toggle-switch.active::after {
+            transform: translateX(28px);
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .pricing-card {
+            background: var(--color-surface);
+            border: 2px solid var(--color-border);
+            border-radius: var(--border-radius-lg);
+            padding: 40px;
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: var(--color-primary);
+            transform: scale(1.05);
+            box-shadow: var(--shadow-large);
+        }
+
+        .pricing-card.featured::before {
+            content: 'Más Popular';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gradient-premium);
+            color: white;
+            padding: 8px 24px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .pricing-card:hover:not(.featured) {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--color-primary);
+        }
+
+        .pricing-plan {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .pricing-description {
+            color: var(--color-text-secondary);
+            margin-bottom: 24px;
+            font-size: 15px;
+        }
+
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            margin-bottom: 8px;
+        }
+
+        .pricing-period {
+            color: var(--color-text-secondary);
+            margin-bottom: 32px;
+            font-size: 15px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 32px;
+            text-align: left;
+        }
+
+        .pricing-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+            color: var(--color-text-secondary);
+        }
+
+        .pricing-features li::before {
+            content: '✓';
+            color: var(--color-success);
+            font-weight: 600;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: var(--gradient-premium);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            opacity: 0.5;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-title {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .cta-description {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .cta-button {
+            background: white;
+            color: var(--color-primary);
+            padding: 20px 40px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            transition: var(--transition);
+            display: inline-block;
+            box-shadow: var(--shadow-medium);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-large);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--color-text-primary);
+            color: white;
+            padding: 80px 0 40px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .footer-brand h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-social a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .footer-section h4 {
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--color-text-primary);
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 72px;
+            left: 0;
+            right: 0;
+            background: var(--color-surface);
+            border-bottom: 1px solid var(--color-border);
+            box-shadow: var(--shadow-medium);
+            z-index: 99;
+        }
+
+        .mobile-menu.open {
+            display: block;
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            padding: 20px;
+        }
+
+        .mobile-menu li {
+            margin-bottom: 16px;
+        }
+
+        .mobile-menu a {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            padding: 12px 0;
+        }
+
+        /* Badge shine animation */
+        @keyframes shine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        /* Trust badges hover effect */
+        .trust-badges > div:hover {
+            transform: translateY(-4px);
+            transition: var(--transition);
+        }
+
+        /* Calendar pulse animation */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .hero-actions {
+                flex-direction: column;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 40px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .showcase-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.featured {
+                transform: none;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .section {
+                padding: 80px 0;
+            }
+
+            .container,
+            .container-wide {
+                padding: 0 20px;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Smooth scrolling and performance */
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .gpu-accelerated {
+            transform: translateZ(0);
+            will-change: transform;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">AirHost AI</a>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#funciones" class="nav-link">Funciones</a></li>
+                <li><a href="#precios" class="nav-link">Precios</a></li>
+                <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            </ul>
+
+            <div style="display: flex; align-items: center; gap: 16px;">
+                <a href="/login.html" class="nav-link">Iniciar Sesión</a>
+                <a href="/login.html" class="nav-cta">Empezar Gratis</a>
+            </div>
+
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                ☰
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#funciones">Funciones</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="/login.html">Iniciar Sesión</a></li>
+                <li><a href="/login.html" style="color: var(--color-primary); font-weight: 600;">Empezar Gratis</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content animate-on-scroll">
+                <div class="hero-badge">
+                    <span>🚀</span>
+                    Único con WhatsApp automático multiidioma
+                </div>
+                
+                <h1 class="hero-title">
+                    La única plataforma con 
+                    <span style="background: var(--gradient-premium); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mensajes WhatsApp Automáticos</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Channel Manager + WhatsApp automático en 3 idiomas + Códigos de acceso inteligentes. 
+                    El único sistema que gestiona TODA tu comunicación automáticamente.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="/login.html" class="btn btn-primary">
+                        Empezar Gratis
+                        <span>→</span>
+                    </a>
+                    <a href="#demo" class="btn btn-secondary">
+                        <span>▶</span>
+                        Ver Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section-small">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Mil mensajes WhatsApp automáticos</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">% Sincronización tiempo real</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="2400">0</div>
+                    <div class="stat-label">Hosts activos usando el sistema</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-number" data-target="0">0</div>
+                    <div class="stat-label">Overbookings (garantía absoluta)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="funciones" class="features section">
+        <div class="container">
+            <div class="features-header animate-on-scroll">
+                <div class="features-badge">Funcionalidades Únicas</div>
+                <h2 class="section-title">Lo que nos hace únicos en el mercado</h2>
+                <p class="section-subtitle">
+                    <strong>Somos los únicos</strong> con WhatsApp automático multiidioma + Channel Manager unificado. 
+                    Automatización completa que ningún competidor ofrece.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll gpu-accelerated" style="border: 2px solid var(--color-primary); position: relative;">
+                    <div style="position: absolute; top: -12px; left: 24px; background: var(--gradient-premium); color: white; padding: 6px 16px; border-radius: 12px; font-size: 12px; font-weight: 600;">🔥 EXCLUSIVO</div>
+                    <div class="feature-icon">💬</div>
+                    <h3 class="feature-title">WhatsApp Automático Multiidioma</h3>
+                    <p class="feature-description">
+                        <strong>Único en el mercado:</strong> Mensajes automáticos en español, inglés y francés. 
+                        Bienvenida personalizada, códigos WiFi, recordatorios de checkout y solicitudes de reseñas. 
+                        <span style="color: var(--color-primary); font-weight: 600;">+150,000 mensajes enviados automáticamente.</span>
+                    </p>
+                </div>
+
+                <div class="feature-card animate-on-scroll gpu-accelerated" style="border: 2px solid var(--color-success); position: relative;">
+                    <div style="position: absolute; top: -12px; left: 24px; background: var(--color-success); color: white; padding: 6px 16px; border-radius: 12px; font-size: 12px; font-weight: 600;">⚡ GAME CHANGER</div>
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Channel Manager Inteligente</h3>
+                    <p class="feature-description">
+                        <strong>Sincronización en tiempo real</strong> con Airbnb, Booking.com y VRBO. 
+                        Detecta nuevas reservas automáticamente y activa toda la secuencia: códigos, mensajes, fianzas. 
+                        <span style="color: var(--color-success); font-weight: 600;">Zero overbookings garantizado.</span>
+                    </p>
+                </div>
+
+                <div class="feature-card animate-on-scroll gpu-accelerated">
+                    <div class="feature-icon">🔑</div>
+                    <h3 class="feature-title">Códigos de Acceso Automáticos</h3>
+                    <p class="feature-description">
+                        Integración completa con Nuki, August, Yale y Schlage. 
+                        Genera códigos únicos automáticamente para cada reserva con fechas de expiración precisas.
+                        <span style="color: var(--color-primary); font-weight: 600;">100% sin intervención manual.</span>
+                    </p>
+                </div>
+
+                <div class="feature-card animate-on-scroll gpu-accelerated">
+                    <div class="feature-icon">💳</div>
+                    <h3 class="feature-title">Fianzas Inteligentes con Stripe</h3>
+                    <p class="feature-description">
+                        Pre-autorización automática con Stripe. Cobro instantáneo por daños con evidencia fotográfica 
+                        y liberación automática en 48h sin intervención manual.
+                        <span style="color: var(--color-primary); font-weight: 600;">€2.4M en fianzas gestionadas.</span>
+                    </p>
+                </div>
+
+                <div class="feature-card animate-on-scroll gpu-accelerated">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">Gestión de Incidencias</h3>
+                    <p class="feature-description">
+                        Reporta daños con fotos, cobra automáticamente de la fianza y mantén 
+                        un historial completo para cada propiedad con documentación legal.
+                        <span style="color: var(--color-primary); font-weight: 600;">Recupera el 100% de daños.</span>
+                    </p>
+                </div>
+
+                <div class="feature-card animate-on-scroll gpu-accelerated">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Analytics Avanzados</h3>
+                    <p class="feature-description">
+                        Dashboard completo con métricas de rendimiento, análisis de ingresos, 
+                        estadísticas de huéspedes y reportes automáticos para optimizar tu negocio.
+                        <span style="color: var(--color-primary); font-weight: 600;">ROI visible desde día 1.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="demo" class="showcase section">
+        <div class="container-wide">
+            <div class="showcase-content">
+                <div class="showcase-text animate-on-scroll">
+                    <h2 class="showcase-title">El flujo automático que cambia todo</h2>
+                    <p class="showcase-description">
+                        <strong>Desde la reserva hasta el checkout, sin tocar nada.</strong> 
+                        Nuestro Channel Manager detecta nuevas reservas y activa automáticamente: 
+                        códigos de acceso, WhatsApp personalizado y gestión de fianzas.
+                    </p>
+                    
+                    <ul class="showcase-features">
+                        <li><strong>Channel Manager:</strong> Detecta reservas en tiempo real de todas las plataformas</li>
+                        <li><strong>WhatsApp Automático:</strong> Mensaje de bienvenida personalizado en su idioma</li>
+                        <li><strong>Códigos Smart:</strong> Generación y envío automático de códigos de acceso</li>
+                        <li><strong>Fianza Inteligente:</strong> Solicitud y autorización automática con Stripe</li>
+                        <li><strong>Secuencia Completa:</strong> Check-out, liberación de fianza y solicitud de reseña</li>
+                        <li><strong>Zero Intervención:</strong> Funciona 24/7 sin supervisión humana</li>
+                    </ul>
+                    
+                    <a href="/login.html" class="btn btn-primary">
+                        Ver el Flujo Completo
+                        <span>→</span>
+                    </a>
+                </div>
+                
+                <div class="showcase-visual animate-on-scroll gpu-accelerated">
+                    <div class="showcase-visual-content">
+                        <h3>🔄 Flujo Automático Completo</h3>
+                        <p>El único sistema que conecta TODAS las piezas automáticamente</p>
+                        
+                        <div style="margin-top: 32px; text-align: left; space-y: 16px;">
+                            <div style="background: rgba(255,255,255,0.15); padding: 16px; border-radius: 12px; margin-bottom: 16px; border-left: 4px solid rgba(255,255,255,0.5);">
+                                <div style="font-weight: 600; margin-bottom: 4px;">1. Nueva Reserva Detectada</div>
+                                <div style="opacity: 0.9; font-size: 14px;">Channel Manager sincroniza automáticamente</div>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.15); padding: 16px; border-radius: 12px; margin-bottom: 16px; border-left: 4px solid rgba(255,255,255,0.5);">
+                                <div style="font-weight: 600; margin-bottom: 4px;">2. WhatsApp Automático Enviado</div>
+                                <div style="opacity: 0.9; font-size: 14px;">Mensaje personalizado en su idioma</div>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.15); padding: 16px; border-radius: 12px; margin-bottom: 16px; border-left: 4px solid rgba(255,255,255,0.5);">
+                                <div style="font-weight: 600; margin-bottom: 4px;">3. Código de Acceso Generado</div>
+                                <div style="opacity: 0.9; font-size: 14px;">Smart Lock programado automáticamente</div>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.15); padding: 16px; border-radius: 12px; border-left: 4px solid rgba(255,255,255,0.5);">
+                                <div style="font-weight: 600; margin-bottom: 4px;">4. Fianza Solicitada</div>
+                                <div style="opacity: 0.9; font-size: 14px;">Link de pago Stripe enviado por WhatsApp</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Demo Section -->
+    <section class="calendar-demo section-small" style="background: var(--color-background);">
+        <div class="container">
+            <div class="features-header animate-on-scroll">
+                <div class="features-badge">Dashboard Unificado</div>
+                <h2 class="section-title">Todas tus propiedades en un solo calendario</h2>
+                <p class="section-subtitle">
+                    Visualiza cómo nuestro Channel Manager sincroniza automáticamente las reservas 
+                    de todas tus propiedades y plataformas en un dashboard central único.
+                </p>
+            </div>
+
+            <div class="calendar-container animate-on-scroll" style="max-width: 1000px; margin: 60px auto 0;">
+                <div style="background: var(--color-surface); border-radius: var(--border-radius-xl); padding: 40px; box-shadow: var(--shadow-large); border: 1px solid var(--color-border);">
+                    <!-- Calendar Header -->
+                    <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 32px; flex-wrap: wrap; gap: 20px;">
+                        <div>
+                            <h3 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 8px;">📊 Dashboard Central - Enero 2025</h3>
+                            <p style="color: var(--color-text-secondary);">Vista unificada de todas tus propiedades • Sincronización cada 5 minutos</p>
+                        </div>
+                        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                            <div style="display: flex; align-items: center; gap: 8px; background: #FF5A5F; color: white; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                                <div style="width: 8px; height: 8px; background: white; border-radius: 50%;"></div>
+                                Airbnb
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: #003580; color: white; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                                <div style="width: 8px; height: 8px; background: white; border-radius: 50%;"></div>
+                                Booking.com
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: #1BA0E1; color: white; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                                <div style="width: 8px; height: 8px; background: white; border-radius: 50%;"></div>
+                                VRBO
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; background: var(--color-success); color: white; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;">
+                                <div style="width: 8px; height: 8px; background: white; border-radius: 50%; animation: pulse 2s infinite;"></div>
+                                3 Propiedades Sync
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Properties Legend -->
+                    <div style="background: var(--color-background); padding: 20px; border-radius: 12px; margin-bottom: 24px;">
+                        <h4 style="font-size: 14px; font-weight: 600; margin-bottom: 16px; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px;">Propiedades Sincronizadas</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 12px; height: 12px; background: #FF5A5F; border-radius: 3px; flex-shrink: 0;"></div>
+                                <span style="font-size: 14px; color: var(--color-text-primary); font-weight: 500;">Apt. Centro Madrid</span>
+                                <span style="font-size: 12px; color: var(--color-text-secondary);">(3 plataformas)</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 12px; height: 12px; background: #003580; border-radius: 3px; flex-shrink: 0;"></div>
+                                <span style="font-size: 14px; color: var(--color-text-primary); font-weight: 500;">Villa Marbella</span>
+                                <span style="font-size: 12px; color: var(--color-text-secondary);">(2 plataformas)</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 12px; height: 12px; background: #1BA0E1; border-radius: 3px; flex-shrink: 0;"></div>
+                                <span style="font-size: 14px; color: var(--color-text-primary); font-weight: 500;">Loft Barcelona</span>
+                                <span style="font-size: 12px; color: var(--color-text-secondary);">(3 plataformas)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calendar Grid -->
+                    <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; margin-bottom: 24px;">
+                        <!-- Days of week -->
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">LUN</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">MAR</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">MIÉ</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">JUE</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">VIE</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">SÁB</div>
+                        <div style="padding: 12px; text-align: center; font-weight: 600; color: var(--color-text-secondary); font-size: 14px;">DOM</div>
+
+                        <!-- Week 1 -->
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">1</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">2</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; position: relative; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>3</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Madrid</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: linear-gradient(135deg, #FF5A5F 0%, #FF5A5F 50%, #003580 50%, #003580 100%); color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>4</span>
+                            <span style="font-size: 9px; opacity: 0.9;">M+V</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>5</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Madrid</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">6</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">7</span>
+                        </div>
+
+                        <!-- Week 2 -->
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">8</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">9</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>10</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Villa</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>11</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Villa</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: linear-gradient(135deg, #003580 0%, #003580 50%, #1BA0E1 50%, #1BA0E1 100%); color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>12</span>
+                            <span style="font-size: 9px; opacity: 0.9;">V+L</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>13</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Loft</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">14</span>
+                        </div>
+
+                        <!-- Week 3 -->
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">15</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">16</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">17</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>18</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Loft</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>19</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Loft</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>20</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Loft</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">21</span>
+                        </div>
+
+                        <!-- Week 4 -->
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">22</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">23</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">24</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>25</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Madrid</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: linear-gradient(to right, #FF5A5F 0%, #FF5A5F 33%, #003580 33%, #003580 66%, #1BA0E1 66%, #1BA0E1 100%); color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>26</span>
+                            <span style="font-size: 9px; opacity: 0.9;">TODAS</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>27</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Madrid</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span>28</span>
+                            <span style="font-size: 10px; opacity: 0.9;">Villa</span>
+                        </div>
+
+                        <!-- Week 5 -->
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">29</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">30</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <span style="font-weight: 600;">31</span>
+                        </div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px;"></div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px;"></div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px;"></div>
+                        <div style="padding: 12px 4px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px; min-height: 60px;"></div>
+                    </div>
+
+                    <!-- Live sync indicator with occupancy stats -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div style="background: rgba(48, 209, 88, 0.1); border: 1px solid rgba(48, 209, 88, 0.3); border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 12px; height: 12px; background: var(--color-success); border-radius: 50%; animation: pulse 2s infinite;"></div>
+                            <div>
+                                <div style="font-weight: 600; color: var(--color-success); margin-bottom: 4px;">✅ Todas las propiedades sincronizadas</div>
+                                <div style="font-size: 14px; color: var(--color-text-secondary);">
+                                    Última actualización: hace 2 minutos • Próxima sync: en 3 minutos
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="background: rgba(0, 113, 227, 0.1); border: 1px solid rgba(0, 113, 227, 0.3); border-radius: 12px; padding: 16px;">
+                            <div style="font-weight: 600; color: var(--color-primary); margin-bottom: 8px;">📊 Ocupación Enero 2025</div>
+                            <div style="display: flex; justify-content: space-between; font-size: 14px; color: var(--color-text-secondary);">
+                                <span>Madrid: 12 días</span>
+                                <span>Villa: 8 días</span>
+                                <span>Loft: 6 días</span>
+                            </div>
+                            <div style="font-size: 12px; color: var(--color-text-secondary); margin-top: 4px;">
+                                <strong>Total: 26/31 días ocupados (84%)</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">6</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">7</div>
+
+                        <!-- Week 2 -->
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">8</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">9</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; position: relative;">
+                            10
+                            <div style="position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); font-size: 8px; opacity: 0.8;">BCK</div>
+                        </div>
+                        <div style="padding: 16px 8px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">11</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">12</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #003580; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">13</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">14</div>
+
+                        <!-- Week 3 -->
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">15</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">16</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">17</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; position: relative;">
+                            18
+                            <div style="position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); font-size: 8px; opacity: 0.8;">VRB</div>
+                        </div>
+                        <div style="padding: 16px 8px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">19</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">20</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #1BA0E1; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">21</div>
+
+                        <!-- Week 4 -->
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">22</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">23</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">24</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600; position: relative;">
+                            25
+                            <div style="position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); font-size: 8px; opacity: 0.8;">ABB</div>
+                        </div>
+                        <div style="padding: 16px 8px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">26</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">27</div>
+                        <div style="padding: 16px 8px; text-align: center; background: #FF5A5F; color: white; border-radius: 8px; font-size: 14px; font-weight: 600;">28</div>
+
+                        <!-- Week 5 -->
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">29</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">30</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;">31</div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;"></div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;"></div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;"></div>
+                        <div style="padding: 16px 8px; text-align: center; background: var(--color-background); border-radius: 8px; font-size: 14px;"></div>
+                    </div>
+
+                    <!-- Live sync indicator -->
+                    <div style="background: rgba(48, 209, 88, 0.1); border: 1px solid rgba(48, 209, 88, 0.3); border-radius: 12px; padding: 16px; display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 12px; height: 12px; background: var(--color-success); border-radius: 50%; animation: pulse 2s infinite;"></div>
+                        <div>
+                            <div style="font-weight: 600; color: var(--color-success); margin-bottom: 4px;">✅ Sincronizado en tiempo real</div>
+                            <div style="font-size: 14px; color: var(--color-text-secondary);">
+                                Última actualización: hace 2 minutos • Próxima sync: en 3 minutos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                            <div style="display: flex; gap: 4px; margin-top: 8px;">
+                                <span style="background: #003580; color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">PARTNER+</span>
+                                <span style="background: var(--color-success); color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">⭐ 4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        "La automatización es total: nueva reserva → WhatsApp automático → código generado → fianza solicitada. 
+                        Todo en segundos. Es como tener un asistente virtual trabajando 24/7."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AC</div>
+                        <div class="testimonial-info">
+                            <h4>Ana Castro</h4>
+                            <p>22 propiedades • Valencia</p>
+                            <div style="display: flex; gap: 4px; margin-top: 8px;">
+                                <span style="background: #1BA0E1; color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">PREMIER</span>
+                                <span style="background: var(--color-success); color: white; padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600;">⭐ 4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Social Proof -->
+            <div class="social-proof animate-on-scroll" style="margin-top: 60px; text-align: center; padding: 40px; background: var(--color-surface); border-radius: var(--border-radius-lg); border: 1px solid var(--color-border);">
+                <div style="display: flex; justify-content: center; align-items: center; gap: 60px; flex-wrap: wrap; margin-bottom: 32px;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary); margin-bottom: 8px;">98%</div>
+                        <div style="color: var(--color-text-secondary); font-size: 14px;">Satisfacción cliente</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary); margin-bottom: 8px;">4.8★</div>
+                        <div style="color: var(--color-text-secondary); font-size: 14px;">Rating promedio</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary); margin-bottom: 8px;">24h</div>
+                        <div style="color: var(--color-text-secondary); font-size: 14px;">Tiempo de setup</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; font-weight: 800; color: var(--color-primary); margin-bottom: 8px;">99.9%</div>
+                        <div style="color: var(--color-text-secondary); font-size: 14px;">Uptime garantizado</div>
+                    </div>
+                </div>
+                <p style="color: var(--color-text-secondary); font-size: 16px; max-width: 600px; margin: 0 auto;">
+                    Únete a los <strong>2,400+ hosts</strong> que ya confían en AirHost AI para automatizar 
+                    completamente su negocio de alquiler vacacional.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="precios" class="pricing section">
+        <div class="container">
+            <div class="features-header animate-on-scroll">
+                <div class="features-badge">Precios</div>
+                <h2 class="section-title">Planes que crecen contigo</h2>
+                <p class="section-subtitle">
+                    Precios transparentes sin sorpresas. Cancela cuando quieras.
+                </p>
+            </div>
+
+            <div class="pricing-toggle animate-on-scroll">
+                <span>Mensual</span>
+                <div class="toggle-switch" onclick="togglePricing()"></div>
+                <span>Anual <span style="color: var(--color-success); font-weight: 600;">(2 meses gratis)</span></span>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-plan">Starter</div>
+                    <div class="pricing-description">Perfecto para empezar</div>
+                    <div class="pricing-price" data-monthly="29" data-yearly="290">€29</div>
+                    <div class="pricing-period">por mes</div>
+                    
+                    <ul class="pricing-features">
+                        <li>Hasta 3 propiedades</li>
+                        <li>Channel Manager básico</li>
+                        <li>WhatsApp automático (1 idioma)</li>
+                        <li>Códigos de acceso automáticos</li>
+                        <li>Sincronización de calendarios</li>
+                        <li>Soporte por email</li>
+                        <li>Dashboard básico</li>
+                    </ul>
+                    
+                    <a href="/login.html" class="btn btn-secondary" style="width: 100%;">Empezar Gratis</a>
+                </div>
+
+                <div class="pricing-card featured animate-on-scroll">
+                    <div class="pricing-plan">Professional</div>
+                    <div class="pricing-description">Para hosts serios</div>
+                    <div class="pricing-price" data-monthly="79" data-yearly="790">€79</div>
+                    <div class="pricing-period">por mes</div>
+                    
+                    <ul class="pricing-features">
+                        <li>Propiedades ilimitadas</li>
+                        <li><strong>Channel Manager completo (Airbnb + Booking + VRBO)</strong></li>
+                        <li><strong>WhatsApp automático multiidioma (ES/EN/FR)</strong></li>
+                        <li>Fianzas inteligentes con Stripe</li>
+                        <li>Gestión de incidencias</li>
+                        <li>Smart lock premium</li>
+                        <li>Analytics avanzados</li>
+                        <li>Soporte prioritario 24/7</li>
+                        <li>API acceso</li>
+                    </ul>
+                    
+                    <a href="/login.html" class="btn btn-primary" style="width: 100%;">Más Popular</a>
+                </div>
+
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-plan">Enterprise</div>
+                    <div class="pricing-description">Para grandes operaciones</div>
+                    <div class="pricing-price" data-monthly="199" data-yearly="1990">€199</div>
+                    <div class="pricing-period">por mes</div>
+                    
+                    <ul class="pricing-features">
+                        <li>Todo de Professional</li>
+                        <li>Integraciones personalizadas</li>
+                        <li>Manager dedicado</li>
+                        <li>SLA garantizado 99.9%</li>
+                        <li>Onboarding premium</li>
+                        <li>Reportes personalizados</li>
+                        <li>White-label disponible</li>
+                        <li>Consultoría estratégica</li>
+                    </ul>
+                    
+                    <a href="mailto:enterprise@airhostai.com" class="btn btn-secondary" style="width: 100%;">Contactar Ventas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2 class="cta-title">¿Listo para el WhatsApp automático?</h2>
+                <p class="cta-description">
+                    Únete a los 2,400+ hosts que ya disfrutan de mensajes automáticos multiidioma 
+                    y Channel Manager unificado. Setup en 5 minutos, resultados inmediatos.
+                </p>
+                <a href="/login.html" class="cta-button">
+                    Activar WhatsApp Automático
+                </a>
+                <p style="margin-top: 16px; opacity: 0.8; font-size: 14px;">
+                    ✅ Sin tarjeta de crédito • ✅ 14 días gratis • ✅ Único con WhatsApp multiidioma
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>AirHost AI</h3>
+                    <p>
+                        La plataforma de automatización más avanzada para hosts de Airbnb. 
+                        Automatiza tu negocio con inteligencia artificial y dedica tu tiempo a lo que realmente importa.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#funciones">Funciones</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                        <li><a href="#">Integraciones</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Prensa</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Estado del sistema</a></li>
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 AirHost AI. Todos los derechos reservados. Hecho con ❤️ para la comunidad Airbnb.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        const offsetTop = target.offsetTop - 72; // Account for navbar height
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Navbar scroll effect
+            let lastScrollTop = 0;
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                
+                lastScrollTop = scrollTop;
+            }, { passive: true });
+
+            // Animate elements on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        
+                        // Animate numbers
+                        if (entry.target.classList.contains('stat-item')) {
+                            animateNumber(entry.target.querySelector('.stat-number'));
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all animated elements
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Animate numbers with special handling for different formats
+            function animateNumber(element) {
+                const target = parseInt(element.getAttribute('data-target'));
+                const duration = 2000;
+                const start = performance.now();
+                
+                function update(currentTime) {
+                    const elapsed = currentTime - start;
+                    const progress = Math.min(elapsed / duration, 1);
+                    
+                    // Easing function
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.floor(target * easeOut);
+                    
+                    // Special formatting for different targets
+                    if (target === 150) {
+                        element.textContent = current + 'k';
+                    } else if (target === 2400) {
+                        element.textContent = current.toLocaleString();
+                    } else if (target === 0) {
+                        element.textContent = '0';
+                    } else if (target < 100) {
+                        element.textContent = current + '%';
+                    } else {
+                        element.textContent = current.toLocaleString();
+                    }
+                    
+                    if (progress < 1) {
+                        requestAnimationFrame(update);
+                    } else {
+                        // Final formatting
+                        if (target === 150) {
+                            element.textContent = '150k';
+                        } else if (target === 2400) {
+                            element.textContent = '2,400';
+                        } else if (target === 0) {
+                            element.textContent = '0';
+                        } else if (target < 100) {
+                            element.textContent = target + '%';
+                        } else {
+                            element.textContent = target.toLocaleString();
+                        }
+                    }
+                }
+                
+                requestAnimationFrame(update);
+            }
+
+            // Mobile menu toggle
+            window.toggleMobileMenu = function() {
+                const mobileMenu = document.getElementById('mobileMenu');
+                mobileMenu.classList.toggle('open');
+            };
+
+            // Pricing toggle
+            window.togglePricing = function() {
+                const toggle = document.querySelector('.toggle-switch');
+                const prices = document.querySelectorAll('.pricing-price');
+                
+                toggle.classList.toggle('active');
+                const isYearly = toggle.classList.contains('active');
+                
+                prices.forEach(price => {
+                    const monthly = price.getAttribute('data-monthly');
+                    const yearly = price.getAttribute('data-yearly');
+                    
+                    if (isYearly) {
+                        price.textContent = '€' + yearly;
+                        price.nextElementSibling.textContent = 'por año';
+                    } else {
+                        price.textContent = '€' + monthly;
+                        price.nextElementSibling.textContent = 'por mes';
+                    }
+                });
+            };
+
+            // Add subtle parallax effect to hero
+            window.addEventListener('scroll', function() {
+                const scrolled = window.pageYOffset;
+                const hero = document.querySelector('.hero');
+                if (hero && scrolled < window.innerHeight) {
+                    hero.style.transform = `translateY(${scrolled * 0.1}px)`;
+                }
+            }, { passive: true });
+
+            // Preload critical images (if any)
+            const criticalImages = [];
+            criticalImages.forEach(src => {
+                const link = document.createElement('link');
+                link.rel = 'preload';
+                link.as = 'image';
+                link.href = src;
+                document.head.appendChild(link);
+            });
+
+            console.log('🚀 AirHost AI - Landing page loaded successfully');
+        });
+
+        // Performance optimization: Debounced scroll
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Error handling for failed loads
+        window.addEventListener('error', function(e) {
+            console.error('Resource failed to load:', e.target);
+        });
+
+        // Service Worker registration (optional, for PWA)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                // navigator.serviceWorker.register('/sw.js'); // Uncomment if you have a service worker
+            });
+        }
+    </script>
+</body>
+</html>
