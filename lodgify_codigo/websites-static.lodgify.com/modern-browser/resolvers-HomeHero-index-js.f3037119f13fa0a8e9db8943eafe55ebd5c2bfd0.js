@@ -1,1 +1,0 @@
-"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[2769],{3350:(_,A,D)=>{D.r(A),D.d(A,{default:()=>L.Component});var L=D(5315)}}]);
